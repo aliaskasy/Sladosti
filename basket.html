@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="shop_name">Сладости</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/css.akkordion.css">
+</head>
+
+<body class="body">
+    <header class="header_osnov header_basket">
+        <div class="container1">
+            <img class="konfeta" src="img/konfeta.png" alt="">
+        </div>
+        <div class="container">
+            <nav class="nav_osnov" id="menu_osnov">
+                <ul class="nav_list_osnov">
+                    <li class="nav_item_osnov">Вход</li>
+                    <li class="nav_item_osnov">Регестрация</li>
+                    <li class="nav_item_osnov">Акции</li>
+                    <li class="nav_item_osnov">Корзина</li>
+                </ul>
+                <div class="burger" onclick="showMenu()">
+                    <div class="burger__line"></div>
+                    <div class="burger__line"></div>
+                    <div class="burger__line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <header class="header">
+        <div class="container">
+            <button class="btn_menu" id="menubtn">Меню</button>
+            <nav class="nav" id="menu">
+                <ul class="nav_list">
+                    <li class="nav_item">Прочее</li>
+                    <li class="nav_item">О нас</li>
+                    <li class="nav_item">Мы в Питере</li>
+                    <li class="nav_item">Состав</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+
+    <main class="main">
+        <div class="container">
+    <section class="gds">
+        <h1 class="jds_title">Корзина</h1>
+        <ul class="spisok">
+            <li class="spisok_basket">
+                <h2 class="text_basket">Пусто</h2>
+            </li>
+        </ul>
+        <button onclick="TTU()" class="gds_button">Обновить</button>
+    </section>
+        </div>
+    </main>
+   
+    <script src="js/burger.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/akkordion.js"></script>
+    <script src="js/basket.js"> </script>
+</body>
+
+</html>
